@@ -1,0 +1,251 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Gothic A1', sans-serif;
+    font-style: normal;
+    letter-spacing: 0.20000000298023224px;
+    background: #181818;
+    
+}
+
+
+.display-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 47px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    background-color: #181818;
+}
+
+.flex-1{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    margin-top: 47px;
+   
+}
+
+.link-1{
+    margin-left: 50px;
+    text-decoration: none;
+    color: #FFFFFF;    
+}
+
+.new-button{
+    color: #FFFFFF;
+    background-color: #181818;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 25px; 
+    text-align: center;
+    width: 133px;
+    height: 47px;
+    margin-top: 47px;           
+}
+
+.text-hero{
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 88px;
+    text-align: center;
+    margin-top: 142px;
+    color: #FFFFFF; 
+}
+
+.section-para{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 37px;
+}
+
+.button-style{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    padding-top: 95px;
+}
+.button-1{
+    background: #4452FE;
+    width: 136px;
+    height: 65px;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+.button-2{
+    width: 136px;
+    height: 65px;
+    font-size: 17px;
+    font-weight: 500;
+    margin-left: 20px;
+    color: #FFFFFF;
+    background: #181818;
+}
+.image-1{
+    text-align: center;
+    margin-top: 30px;   
+}
+
+.image-2{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 70%;
+   padding-top: 30px;
+}
+.hero{
+    text-align: center;
+    font-size: 52px;
+    font-weight: 500;
+    line-height: 88px;
+    color: #FFFFFF;
+    padding-top: 100px;
+}
+.sect-hero{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;    
+}
+
+.new-section{
+    margin-top: 164px;
+    margin-left: 78px;
+}
+
+.text-el{
+    padding: 13px;
+}
+
+.span-text{
+    display: flex;
+    flex-direction: row;
+}
+
+.den-1{
+    color: #FFFFFF;
+    font-size: 20px;
+}
+.den-2{
+    margin-top: 45px;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+.work-el{
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.position-1{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-content: center;
+   margin-top: 54px;
+}
+
+.image_flex{
+    display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-content: center;
+   padding-left: 10px;
+}
+.disc-1{
+    margin-left: 10px;
+}
+
+
+@media (max-width:480px){
+    .button-style{
+        display: grid;
+        align-items: center;
+        justify-items: center;
+        grid-row-gap: 30px;
+    }
+    
+    .flex-1{
+        display: none;
+    }
+    .image-2{
+        width: 80%;
+    }
+    .sect-hero{
+        display: flex;
+        flex-direction: column;
+    }
+    .image-3{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+    }
+    .new-section{
+        display: grid;
+        place-content: center;
+    }
+    .position-1{
+        display: grid;
+        place-content: center;
+    }
+    .image_flex{
+        display: grid;
+        place-content: center;
+        
+
+        
+    }
+    
+}
+
+@media (max-width:780px){
+    .button-style{
+        display: grid;
+        align-items: center;
+        justify-items: center;
+        grid-row-gap: 30px;
+    }
+    .flex-1{
+        display: none;
+    }
+    .image-2{
+        width: 80%;
+    }
+    .sect-hero{
+        display: flex;
+        flex-direction: column;
+    }
+    .image-3{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+    }
+    .new-section{
+        display: grid;
+        place-content: center;
+    }
+    .position-1{
+        display: grid;
+        place-content: center;
+    }
+    .image_flex{
+        display: grid;
+        place-content: center;
+    }
+}
